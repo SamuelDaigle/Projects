@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+    <meta charset="UTF-8" />
+	<link rel="stylesheet" href="main.css" type="text/css" />
+    <title>CarNet Me</title>
+</head>
+
+<body>
+    <div class="headerBackground">
+        <header>
+				<a href="daigle_samuel.html" class="Accueil">CarNet Me</a></li></h2>
+				
+				<!--  <div id="searchbar">
+					<input type="search" size="30" placeholder="search"/>
+				</div>  -->
+				
+		</header>
+    </div>
+    <div class="bodyBackground">
+        <nav>
+				<li><a href="daigle_samuel.html">Accueil</a></li>
+				<li><a href="carnet.html">Carnet</a></li>
+				<li><a href="gallerie.html">Gallerie</a></li>
+				<li><a href="Profil.html">Profil</a></li>
+		</nav>
+
+        <article>
+				<hr /> <!-- Programmation graphique -->
+				
+					<h1 class="center">Programmation graphique</h1>
+					<hr />
+					<p id="descriptionProperties">
+						<b>Description: </b> La programmation graphique est une partie du travail que l'on doit réaliser pour faire un jeu ou une simulation.
+						Ceci consiste à se concentrer sur le visuel. Aucun jeu n'en ressort à la fin, mais plutôt un "engine" graphique. Les collisions sont souvent exclus
+						de la programmation graphique. C'est la programmation de jeux (game programming) qui se charge des collisions, des missions, etc. Plusieurs techniques
+						sont utilisé en programmation graphique, quelques unes très avancées, d'autres plus simples. Les "shaders", la tesselation, le "displacement mapping", le
+						"bump mapping" et bien d'autres.
+					</p>
+					<hr />
+					<p>Les exemples suivants sont des exemples de ce que vous allez pouvoir créer après ce tutoriel.
+					Il y a plus de chose comme la lumière, le son, le text, l'eau. Alors jetez y un coup d'oeil!
+					</p>
+					<h3 class="center">Displacement Mapping</h3>
+					<img class="projectImage" src="resources/image/displacementMapping.jpg" alt="Un exemple de 'displacement mapping'">
+					<h3 class="center">Comparaison entre une texture sans modification, avec bump mapping <br />et avec displacement mapping</h3>
+					<img class="projectImage" src="resources/image/model_comparision.jpg" alt="Différence entre une texture, sans rien, avec bump mapping, avec displacement mapping">
+					<h3 class="center">Tesselation</h3>
+					<img class="projectImage" src="resources/image/tessellation.jpg" alt="Un exemple de tesselation">
+					<br />
+					
+					<hr />
+					
+					<h2 class="center">Kara</h2>
+					<h4 class="center"> Un exemple de Quantum Dream, avant d'avoir fait Beyond:two souls, d'une programmation graphique où seul le visuel et l'audio est présent.</h4>
+					<video width="100%" controls>
+						<source src="resources/video/kara.mp4" type="video/mp4">
+						<source src="resources/video/kara.ogv" type="video/ogv">
+						<source src="resources/video/kara.webm" type="video/webm">
+						Votre naviguateur ne supporte pas ce type de video.
+					</video>
+					
+					<hr />
+					
+					<h2 class="center">Extra Credits</h2>
+					<h4 class="center">Différence entre le graphique et l'esthétique</h4>
+					<audio controls style="width: 100%;">
+						<source src="resources/audio/extracreditsGraphicsVsAesthetics.ogg" type="audio/ogg">
+						<source src="resources/audio/extracreditsGraphicsVsAesthetics.mp3" type="audio/mp3">
+						Votre naviguateur ne supporte pas ce type audio.
+					</audio>
+					<iframe width="100%" height="500" src="http://www.youtube.com/embed/5oK8UTRgvJU?rel=0" frameborder="0" allowfullscreen></iframe>
+					
+				<hr />
+					<form name="formDate" action="article2.html" method="get" onsubmit="return AfficherDate()">
+						<div class="center">
+							<button>Voir la date de la dernière mise à jour</button>
+						</div>
+					</form>
+				<hr /> <!-- Page 2 - Introduction -->
+					<h1 class="center">Introduction</h1>
+					<p>"DirectX est une technologie qui aide à créer les effets visuels and audios qui vient avec les jeux. Il
+						peut aider votre ordinateur à gagner plus de performance des programmes multimédias comme des jeux 
+						ou des films.¹" DirectX est un outil qui vous aide à mieux créer votre jeux, plus efficacement. Les jeux que vous allez
+						faire vont <b>seulement</b> fonctionner sur les platformes Microsoft, comme Windows et Xbox. C'est important de prendre ceci en 
+						considération. Si vous choisissez plus tard de l'adapter sur la Ps4, sur Linux ou sur d'autres platformes, vous devrez refaire votre 
+						jeu depuis le début.
+					</p>
+					
+					<p class="soustitre">Pourquoi j'utiliserais DirectX si je ne serai pas capable de mettre mes jeux sur d'autres platformes?</p>
+					
+					<p>C'est parce que les joueurs ont une meilleur expectation d'un jeu qui utilise DirectX qu'un jeu qui utilise OpenGL.
+						Avant de faire quoique ce soit, il est recommendé de savoir se que vous attendez. Si vous voulez que votre jeux
+						d'être multi-platforme, vous devriez plus utiliser OpenGl et vous allez pouvoir avoir une plus grande audience.
+						Ou vous pouvez utiliser DirectX, votre jeu sera mieux perçu de vos joueurs, alors plus de personne de votre audience
+						ciblée vont l'acheter. Globallement, votre jeux aura le même nombre de personne qui l'achète, alors vous devriez vous focusser
+						sur ce que vous attendez d'eux.
+					</p>
+					
+					<p class="soustitre">Les résultats sont les mêmes?</p>
+					
+					<p>C'est difficile de dire parce que de comparer deux jeux différents (l'un qui utilise DirectX et l'autre OpenGL) vont avec des qualités différentes.
+						Certains jeux sont focusés sur la méchanique, d'autre sur le graphique. Chanceux comme nous le sommes, quelques personnes ont fait le même jeux sur les
+						deux APIs. Il n'y a pas de réel différence; le nombre de FPS sont les mêmes, les graphics sont identiques... Tous se ressemble. Bien sûr, il y a plusieurs
+						débats sur lequel est le meilleur. Dans ce tutoriel, vous allez être préparé pour l'industrie du jeu video, alors vous allez apprendre DirectX, mais rien
+						n'est désavantageux avec OpenGL.
+					</p>
+					
+					<img class="projectImage" src="resources/image/DirectXvsOpenGL.jpg" alt="Différence entre DirectX et OpenGL">
+					<p class="projetRemarque">Grande image 1
+					</p>
+					
+					<img class="projectImage" src="resources/image/directxWater.jpg" alt="Démonstration de l'eau">
+					<p class="projetRemarque">Grande image 2
+					</p>
+					
+					<p>
+					_______________________________<br />
+					¹ <a target="_blank" href="http://windows.microsoft.com/en-ca/windows/directx-faq#1TC=windows-7" class="linkcolor">windows.microsoft.com</a>
+					</p>
+				<hr />
+					<h4 class="center">(Suite à venir)</h2>
+		</article>
+    </div>
+    <div class="footerBackground">
+        <footer>
+				<p>Copyright Samuel Daigle - Tous droits réservés</p>
+				<script src="script.js" type="text/javascript"></script>
+		</footer>
+    </div>
+</body>
+</html>
